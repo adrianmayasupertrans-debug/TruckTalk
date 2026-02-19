@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/trucktalk.iml" filepath="$PROJECT_DIR$/trucktalk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/trucktalk_android.iml" filepath="$PROJECT_DIR$/android/trucktalk_android.iml" />
+    </modules>
+  </component>
+</project>
