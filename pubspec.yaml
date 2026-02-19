@@ -1,22 +1,41 @@
 name: trucktalk
-description: Voice translator for drivers
-publish_to: 'none'
+description: TruckTalk Flutter Project
+publish_to: "none" # Nu urca pe pub.dev
+
 version: 1.0.0+1
 
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=2.18.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  speech_to_text: ^6.3.0
-  flutter_tts: ^3.8.5
-  http: ^1.1.0
-  in_app_purchase: ^3.1.11
-  shared_preferences: ^2.2.2
+
+  # UI & utilitare
+  cupertino_icons: ^1.0.5
+  provider: ^6.0.6
+
+  # Speech & TTS
+  speech_to_text: ^7.1.0
+  flutter_tts: ^3.7.0
+
+  # Translation
+  translator: ^0.1.7
+
+  # Purchase / In-app
+  in_app_purchase: ^3.0.7
+
+  # Settings & storage
+  shared_preferences: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
 
 flutter:
   uses-material-design: true
+
+  # Assets folder
   assets:
     - assets/
-
